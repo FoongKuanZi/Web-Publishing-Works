@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            This is my first HTML.
-        </title>
-    </head>
-    <body>
-        <p>This is my first paragraph.</p>
-        <button>Awaga</button>
-    </body>
+
+<head>
+    <title>
+        This is my first HTML.
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .collapsible {
+            background-color: #ff8ac1;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
+
+        .active,
+        .collapsible:hover {
+            background-color: #ff8ac1;
+        }
+
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is my first paragraph.</p>
+    <br>
+    <button>Awaga</button>
+    <br>
+    <br>
+    <button type="button" class="collapsible">Open this!!!!!</button>
+    <div class="content">
+        <p>
+            Skibidi toilet!!!!
+            Booyaahahahahh
+        </p>
+    </div>
+</body>
+
 </html>
